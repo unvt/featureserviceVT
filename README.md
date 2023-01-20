@@ -4,7 +4,7 @@ A repository to export Feature Service as GeoJSON sequence
 # Usage
 1. Check configration information in config/default.hjson. In particular, the numbers of records in layers may change.
 2. Run index.js to obtain "temp-json.json" that stores all records. Sometimes, socker hang up error may occur due to the server, but please just try again.
-3. Convert "temp-json.json" into vector tile using tippicanoe.
+3. Convert "temp-json.json" into vector tile using tippicanoe. (Make sure that you can use tippecanoe.)
 
 ```
 vi config/default.hjson
