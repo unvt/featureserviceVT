@@ -28,7 +28,7 @@ async function get_feature(url,layerName3){
             f.geometry.type = 'MultiPolygon'
             for (let m in esri.feature.geometry.rings){
                 f.geometry.coordinates[m] = []
-                f.geometry.coordinates[m][0] = esri.feature.geometry.rings[m] //I am not quite sure
+                f.geometry.coordinates[m][0] = esri.feature.geometry.rings[m] 
             }
         } else {
             f.geometry.type = 'Polygon'
