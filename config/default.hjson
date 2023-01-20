@@ -1,5 +1,5 @@
 {
-    url: https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/UN_Geodata_Stylized/FeatureServer/
+    url: https://yourURL/UN_Geodata_Stylized/FeatureServer/
     outputText: temp-json.json
     layers:[
         bnda
