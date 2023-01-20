@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "config": "^3.3.9",
+    "fs": "^0.0.1-security",
+    "hjson": "^3.2.2",
+    "node-fetch": "^2.6.8"
+  },
+  "name": "featureservicevt",
+  "description": "A repository to export Feature Service as GeoJSON sequence",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unvt/featureserviceVT.git"
+  },
+  "keywords": [],
+  "author": "ubukawa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unvt/featureserviceVT/issues"
+  },
+  "homepage": "https://github.com/unvt/featureserviceVT#readme"
+}

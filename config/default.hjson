@@ -1,0 +1,16 @@
+{
+    url: https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/UN_Geodata_Stylized/FeatureServer/
+    outputText: temp-json.json
+    layers:[
+        bnda
+        bndl
+    ]
+    layerId:{
+        bnda: 3
+        bndl: 0
+    }
+    layerRecord:{
+        bnda: 246
+        bndl: 742
+    }
+}
